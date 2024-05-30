@@ -1,0 +1,43 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    float: left;
+    flex: auto;
+    width: 20%;
+    background-color: rgb(49, 46, 46);
+    color: white;
+    text-align: justify;
+    padding: 15px;
+    font-size: 18px;
+    margin: 10px;
+}
+
+.profile-pic {
+    width: 50%;
+    border-radius: 100rem;
+    margin: 50px;
+    border-color: white;
+    border-style: solid;
+    border-width: 10px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.main-content {
+    float: right;
+    flex: auto;
+    text-align: justify;
+    text-size-adjust:100%;
+    width: 75%;
+    margin: 15px;
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    font-display: auto;
+    font-family: 'Times New Roman', Times, serif;
+}
